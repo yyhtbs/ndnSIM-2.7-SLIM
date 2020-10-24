@@ -1,0 +1,22 @@
+# tree-6-node.txt
+
+
+router
+
+# node  comment     yPos    xPos
+Csm1   NA        2       3
+Rtr1   NA        2       5
+Rtr2   NA        2       7
+Pdc1   NA        1       9
+Pdc2   NA        3       9
+Pdc3   NA        3       7
+
+link
+
+# srcNode   dstNode     bandwidth   metric  delay   queue
+Csm1        Rtr1        15Mbps      1        10ms    200
+Rtr1        Rtr2        20Mbps      1        10ms    200
+Rtr1        Pdc3        8Mbps      1        20ms    200
+Rtr2        Pdc1        8Mbps      1        10ms    200
+Rtr2        Pdc2        8Mbps      1        10ms    200
+

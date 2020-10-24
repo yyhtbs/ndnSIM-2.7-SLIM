@@ -1,0 +1,55 @@
+
+router
+
+# node  comment     yPos    xPos
+NODE-0     NA          2       2
+NODE-1     NA          4       3
+NODE-2     NA          5       4
+NODE-3     NA          6       6
+NODE-4     NA          5       8
+NODE-5     NA          4       8
+NODE-6     NA          3       8
+NODE-7     NA          4       7
+NODE-8     NA          4       6
+NODE-9     NA          4       5
+NODE-10     NA          3       4
+NODE-11     NA          1       1
+NODE-12     NA          5       2
+NODE-13     NA          6       3
+NODE-14     NA          7       6
+NODE-15     NA          6       9
+NODE-16     NA          4       9
+NODE-17     NA          2       9
+NODE-18     NA          3       7
+NODE-19     NA          3       6
+NODE-20     NA          3       5
+NODE-21     NA          2       3
+
+link
+
+# srcNode   dstNode     bandwidth   metric  delay   queue
+NODE-6        NODE-7       5Mbps         1       10ms    500
+NODE-6        NODE-5       5Mbps         1       10ms    500
+NODE-5        NODE-7       15Mbps         1       10ms    500
+NODE-7        NODE-8       10Mbps         1       10ms    500
+NODE-8        NODE-9       20Mbps         1       10ms    500
+NODE-9        NODE-10       20Mbps         1       10ms    500
+NODE-9        NODE-2       20Mbps         1       10ms    500
+NODE-10        NODE-0       10Mbps         1       10ms    500
+NODE-0        NODE-1       10Mbps         1       10ms    500
+NODE-1        NODE-2       25Mbps         1       10ms    500
+NODE-2        NODE-3       15Mbps         1       10ms    500
+NODE-8        NODE-3       10Mbps         1       10ms    500
+NODE-3        NODE-4       15Mbps         1       10ms    500
+NODE-4        NODE-5       20Mbps         1       10ms    500
+NODE-18       NODE-7       100Mbps         1       10ms    500
+NODE-19       NODE-8       100Mbps         1       10ms    500
+NODE-20       NODE-9       100Mbps         1       10ms    500
+NODE-21       NODE-10       100Mbps         1       10ms    500
+NODE-0       NODE-11       100Mbps         1       10ms    500
+NODE-1       NODE-12       100Mbps         1       10ms    500
+NODE-2       NODE-13       100Mbps         1       10ms    500
+NODE-3       NODE-14       100Mbps         1       10ms    500
+NODE-4       NODE-15       100Mbps         1       10ms    500
+NODE-5       NODE-16       100Mbps         1       10ms    500
+NODE-6       NODE-17       100Mbps         1       10ms    500
